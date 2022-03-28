@@ -6,7 +6,7 @@ public class ExerciseMain6
 {
     public void runExercise()
     {
-        final double[] array = new double[]{43, 5, 23, 17, 2, 14};
+        final int[] array = new int[]{43, 5, 23, 17, 2, 14};
 
         double totalSum = 0.0;
         for(double num : array)
