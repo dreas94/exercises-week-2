@@ -72,14 +72,17 @@ public class App
                     exercise5.runExercise();
                     break;
                 case 6:
+                    //Completed
                     ExerciseMain6 exercise6 = new ExerciseMain6();
                     exercise6.runExercise();
                     break;
                 case 7:
+                    //Completed
                     ExerciseMain7 exercise7 = new ExerciseMain7();
                     exercise7.runExercise();
                     break;
                 case 8:
+                    //Completed
                     ExerciseMain8 exercise8 = new ExerciseMain8();
                     exercise8.runExercise();
                     break;
