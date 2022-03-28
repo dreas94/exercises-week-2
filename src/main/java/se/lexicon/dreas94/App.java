@@ -19,39 +19,55 @@ public class App
 {
     public static void main( String[] args )
     {
-        int choice = -1;
+        int choice;
         do
         {
             Scanner sc = new Scanner(System.in);
-            do {
+            do
+            {
+                choice = -1;
+                System.out.println("--------------------------------------------------");
                 System.out.print("Pick Exercise to run (1-13), 0 exits the program: ");
-                if (sc.hasNextInt()) {
+                if (sc.hasNextInt())
+                {
                     choice = sc.nextInt();
-                } else {
+                    if(choice != 0)
+                        System.out.println("Running Exercise " + choice);
+                    else
+                        System.out.println("Exiting Program");
+                }
+                else {
                     System.out.println("That is not a number between 0-13, TRY AGAIN!");
                     sc.nextLine();
                 }
             }
             while (choice == -1);
 
+            System.out.println("--------------------------------------------------");
+
             switch(choice)
             {
                 case 1:
+                    //Completed
                     ExerciseMain1 exercise1 = new ExerciseMain1();
                     exercise1.runExercise();
                     break;
                 case 2:
+                    //Completed
                     ExerciseMain2 exercise2 = new ExerciseMain2();
                     exercise2.runExercise();
                 case 3:
+                    //Completed
                     ExerciseMain3 exercise3 = new ExerciseMain3();
                     exercise3.runExercise();
                     break;
                 case 4:
+                    //Completed
                     ExerciseMain4 exercise4 = new ExerciseMain4();
                     exercise4.runExercise();
                     break;
                 case 5:
+                    //Completed
                     ExerciseMain5 exercise5 = new ExerciseMain5();
                     exercise5.runExercise();
                     break;
@@ -86,6 +102,9 @@ public class App
                 case 13:
                     ExerciseMain13 exercise13 = new ExerciseMain13();
                     exercise13.runExercise();
+                    break;
+                case 0:
+                    System.out.println("Goodbye!");
                     break;
             }
             System.out.println("Exercise " + choice + " has finished. Returning to menu!");
