@@ -2,15 +2,24 @@ package se.lexicon.dreas94.exercises.exercise1;
 
 public class ExerciseMain1
 {
-    int[] array;
+    final int[] array = new int[]{11, 23, 39};
 
-    public void printArray()
+    public void runExercise()
     {
-        array = new int[]{11, 23, 39};
+        printArray();
+    }
 
-        for (int element : array)
+    private void printArray()
+    {
+        for (int i = 0; i < array.length; i++)
         {
-            System.out.print(element + " ");
+            if(i == array.length - 1)
+            {
+                System.out.println(array[i]);
+                break;
+            }
+
+            System.out.print(array[i] + " ");
         }
     }
 }
