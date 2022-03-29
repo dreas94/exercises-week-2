@@ -3,10 +3,12 @@ import java.util.Arrays;
 
 public class ExerciseMain2
 {
-    public void runExercise()
+    public boolean runExercise()
     {
         final int[] array = new int[]{1,2,3,4,5,6,7,8,9,10};
         System.out.println(indexOf(array, 5));
+
+        return true;
     }
     private int indexOf(final int[] array, int num)
     {
