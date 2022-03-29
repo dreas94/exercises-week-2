@@ -2,7 +2,7 @@ package se.lexicon.dreas94.exercises.exercise7;
 
 public class ExerciseMain7
 {
-    public void runExercise()
+    public boolean runExercise()
     {
         final int[] array = new int[10];
         array[0] = 1;
@@ -14,6 +14,8 @@ public class ExerciseMain7
 
         System.out.println("Array: " + arrayToString(array,true));
         System.out.println("Odd Array: " + arrayToString(array,false));
+
+        return true;
     }
 
     private String arrayToString(int[] array, boolean showEven)
