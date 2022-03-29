@@ -58,6 +58,7 @@ public class App
                     //Completed
                     ExerciseMain2 exercise2 = new ExerciseMain2();
                     completed = exercise2.runExercise();
+                    break;
                 case 3:
                     //Completed
                     ExerciseMain3 exercise3 = new ExerciseMain3();
@@ -111,9 +112,6 @@ public class App
                     break;
                 case 0:
                     System.out.println("Goodbye!");
-                    break;
-                default:
-                    completed = false;
                     break;
             }
             if(completed)
