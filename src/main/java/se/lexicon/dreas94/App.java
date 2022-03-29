@@ -95,6 +95,7 @@ public class App
                     completed = exercise9.runExercise();
                     break;
                 case 10:
+                    //Completed
                     ExerciseMain10 exercise10 = new ExerciseMain10();
                     completed = exercise10.runExercise();
                     break;
