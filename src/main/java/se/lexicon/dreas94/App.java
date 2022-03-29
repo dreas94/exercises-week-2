@@ -105,10 +105,12 @@ public class App
                     completed = exercise11.runExercise();
                     break;
                 case 12:
+                    //Completed
                     ExerciseMain12 exercise12 = new ExerciseMain12();
                     completed = exercise12.runExercise();
                     break;
                 case 13:
+                    //Completed
                     ExerciseMain13 exercise13 = new ExerciseMain13();
                     completed = exercise13.runExercise();
                     break;
