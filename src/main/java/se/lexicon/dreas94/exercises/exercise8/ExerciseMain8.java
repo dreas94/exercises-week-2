@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ExerciseMain8
 {
-    public void runExercise()
+    public boolean runExercise()
     {
         int[] array = new int[]{20, 20, 40, 20, 30, 40, 50, 60, 50};
         int arrayLength = array.length;
@@ -12,6 +12,8 @@ public class ExerciseMain8
         Arrays.sort(array);
         arrayLength = removeDuplicates(array, arrayLength);
         System.out.println("Array without duplicate values: " + arrayToString(array, arrayLength));
+
+        return true;
     }
 
     private int removeDuplicates(int[] array, int arrayLength)
