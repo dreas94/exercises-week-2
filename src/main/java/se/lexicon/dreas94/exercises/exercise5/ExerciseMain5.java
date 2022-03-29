@@ -2,7 +2,7 @@ package se.lexicon.dreas94.exercises.exercise5;
 
 public class ExerciseMain5
 {
-    public void runExercise()
+    public boolean runExercise()
     {
         final String[][] array = new String[2][2];
         array[0][0] = "France";
@@ -11,6 +11,8 @@ public class ExerciseMain5
         array[1][1] = "Stockholm";
 
         print2DStringArray(array);
+
+        return true;
     }
 
     private void print2DStringArray(String[][] array)
