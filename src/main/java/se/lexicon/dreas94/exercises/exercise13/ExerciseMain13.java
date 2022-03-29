@@ -18,7 +18,7 @@ public class ExerciseMain13
         }
 
         int[] dest = separateEvenOddNumbers(source);
-        System.out.println("Array after separating even and odd numbers : ");
+        System.out.println("\nArray after separating even and odd numbers : ");
         for (int num : dest)
         {
             System.out.print(num + " ");
