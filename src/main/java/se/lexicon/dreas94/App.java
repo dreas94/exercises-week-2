@@ -100,6 +100,7 @@ public class App
                     completed = exercise10.runExercise();
                     break;
                 case 11:
+                    //Completed
                     ExerciseMain11 exercise11 = new ExerciseMain11();
                     completed = exercise11.runExercise();
                     break;
