@@ -4,9 +4,10 @@ public class ExerciseMain1
 {
     final int[] array = new int[]{11, 23, 39};
 
-    public void runExercise()
+    public boolean runExercise()
     {
         printArray();
+        return true;
     }
 
     private void printArray()
