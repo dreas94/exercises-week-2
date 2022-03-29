@@ -118,7 +118,7 @@ public class App
             if(completed)
                 System.out.println("Exercise " + choice + " has finished.");
             else
-                System.out.println("Exercise " + choice + "has not been completed. Try again later.");
+                System.out.println("Exercise " + choice + " has not been completed. Try again later.");
 
             System.out.println("Returning to menu!");
         }while(choice != 0);
