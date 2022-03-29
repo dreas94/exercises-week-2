@@ -4,7 +4,7 @@ import java.text.DecimalFormat;
 
 public class ExerciseMain6
 {
-    public void runExercise()
+    public boolean runExercise()
     {
         final int[] array = new int[]{43, 5, 23, 17, 2, 14};
 
@@ -16,5 +16,7 @@ public class ExerciseMain6
         DecimalFormat df = new DecimalFormat("###.#");
 
         System.out.println("Average is: " + df.format(totalSum/(double)array.length));
+
+        return true;
     }
 }
