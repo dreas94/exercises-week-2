@@ -1,17 +1,17 @@
 package se.lexicon.dreas94;
-import se.lexicon.dreas94.exercises.exercise1.ExerciseMain1;
-import se.lexicon.dreas94.exercises.exercise2.ExerciseMain2;
-import se.lexicon.dreas94.exercises.exercise3.ExerciseMain3;
-import se.lexicon.dreas94.exercises.exercise4.ExerciseMain4;
-import se.lexicon.dreas94.exercises.exercise5.ExerciseMain5;
-import se.lexicon.dreas94.exercises.exercise6.ExerciseMain6;
-import se.lexicon.dreas94.exercises.exercise7.ExerciseMain7;
-import se.lexicon.dreas94.exercises.exercise8.ExerciseMain8;
-import se.lexicon.dreas94.exercises.exercise9.ExerciseMain9;
-import se.lexicon.dreas94.exercises.exercise10.ExerciseMain10;
-import se.lexicon.dreas94.exercises.exercise11.ExerciseMain11;
-import se.lexicon.dreas94.exercises.exercise12.ExerciseMain12;
-import se.lexicon.dreas94.exercises.exercise13.ExerciseMain13;
+import se.lexicon.dreas94.array_exercises.exercise1.ExerciseMain1;
+import se.lexicon.dreas94.array_exercises.exercise2.ExerciseMain2;
+import se.lexicon.dreas94.array_exercises.exercise3.ExerciseMain3;
+import se.lexicon.dreas94.array_exercises.exercise4.ExerciseMain4;
+import se.lexicon.dreas94.array_exercises.exercise5.ExerciseMain5;
+import se.lexicon.dreas94.array_exercises.exercise6.ExerciseMain6;
+import se.lexicon.dreas94.array_exercises.exercise7.ExerciseMain7;
+import se.lexicon.dreas94.array_exercises.exercise8.ExerciseMain8;
+import se.lexicon.dreas94.array_exercises.exercise9.ExerciseMain9;
+import se.lexicon.dreas94.array_exercises.exercise10.ExerciseMain10;
+import se.lexicon.dreas94.array_exercises.exercise11.ExerciseMain11;
+import se.lexicon.dreas94.array_exercises.exercise12.ExerciseMain12;
+import se.lexicon.dreas94.array_exercises.exercise13.ExerciseMain13;
 
 import java.util.Scanner;
 

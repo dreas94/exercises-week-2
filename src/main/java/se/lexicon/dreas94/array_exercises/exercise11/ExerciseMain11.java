@@ -1,4 +1,4 @@
-package se.lexicon.dreas94.exercises.exercise11;
+package se.lexicon.dreas94.array_exercises.exercise11;
 
 import java.util.Arrays;
 import java.util.Scanner;

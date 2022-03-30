@@ -1,4 +1,4 @@
-package se.lexicon.dreas94.exercises.exercise5;
+package se.lexicon.dreas94.array_exercises.exercise5;
 
 public class ExerciseMain5
 {

@@ -1,4 +1,4 @@
-package se.lexicon.dreas94.exercises.exercise6;
+package se.lexicon.dreas94.array_exercises.exercise6;
 
 import java.text.DecimalFormat;
 

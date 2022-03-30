@@ -1,4 +1,4 @@
-package se.lexicon.dreas94.exercises.exercise13;
+package se.lexicon.dreas94.array_exercises.exercise13;
 
 import java.util.Random;
 
